@@ -1,3 +1,4 @@
-import Router from 'koa-router'; const router = Router({   prefix: '/articles' });
+import Router from 'koa-router'
+const router = Router({ prefix: '/recipe' });
 
 module.exports = router
