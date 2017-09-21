@@ -1,4 +1,4 @@
-import armor_data from '../models/armor'
+import armor_data from '../../models/armor'
 // import hero_armor from '../modles/hero'
 
 // 生成新的种类盔甲

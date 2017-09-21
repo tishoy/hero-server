@@ -1,14 +1,19 @@
-import Router from 'koa-router'; 
-const router = Router({   prefix: '/' });
+import Router from 'koa-router';
+const router = Router({ prefix: '/index' });
+
+import lottery from '../utils/lottery_helper'
 
 router.get('/', async (ctx, next) => {
+
   await ctx.render('index', {
-    test: 'Oh It’s Working!'
+    test: 'Oh It’s Working!',
+
   })
 })
 
 router.get('/test', async (ctx, next) => {
-  ctx.body = 'Oh It’s Working!'
+  var list = [1, 2, 3, 4, 5, 6, 7, 8, 9, 0];
+  ctx.body = lottery.randomn(list, 4)
 })
 
 router.get('/mongo', async (ctx, next) => {
@@ -27,7 +32,7 @@ router.post('/routes', async (ctx, next) => {
   console.log(ctx.request.body)
   let addr = "http://localhost:3008/"
   ctx.body = {
-    
+
   }
 })
 

@@ -1,10 +1,10 @@
 const data = {
     collection: (db) => {
-        return db.collection("player")
+        return db.collection("skill")
     },
 
     exist: (name, db) => {
-        return player.collection(db).count({ name: name }) > 0
+        return db.collection("skill").count({ name: name }) > 0
     },
 
     // 查询全部
@@ -13,12 +13,12 @@ const data = {
     },
 
     // 查找一个
-    find: () => {
-
+    find: (id, name) => {
+        return db.collection("skill").find()
     },
 
     insert: (name, db) => {
-        player.collection(db).insert({ name: name })
+        db.collection("skill").insert({ name: name })
     },
 
     update: () => {
@@ -30,9 +30,8 @@ const data = {
     }
 }
 
-const config = {
+const config = {}
 
-}
 
 export default {
     data,

@@ -1,4 +1,5 @@
-import Router from 'koa-router'; const router = Router({   prefix: '/articles' });
+import Router from 'koa-router'; 
+const router = Router({   prefix: '/book' });
 
 import Code from '../../code'
 

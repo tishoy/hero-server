@@ -1,4 +1,4 @@
-import player_data from '../models/player'
+import { player_data, player_config } from '../models/player'
 import MH from '../utils/mongo_helper'
 
 
@@ -22,17 +22,23 @@ const register = async (ctx, next) => {
     if (ctx.name === null || ctx.name === "") {
 
     } else {
-        if (MH.player.exist(req.name, ctx.mongo.db('tishoy_hero'))) {
+        if (player_data.exist(req.name, ctx.mongo.db('tishoy_hero'))) {
             ctx.body = "already exist"
         } else {
-            MH.player.insert(req.name, ctx.mongo.db('tishoy_hero'))
+            player_data.insert(req.name, ctx.mongo.db('tishoy_hero'))
+            // MH.hero.insert
             ctx.body = "success"
         }
     }
 }
 
+const modify = async (ctx, next) => {
+
+}
+
 
 export default {
     register,
-    login
+    login,
+    modify
 }

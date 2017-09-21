@@ -16,7 +16,7 @@ const player = require('./routes/player')
  * 个人能力
  */
 import hero from './routes/hero/attribute'
-import skill from './routes/hero/skill'
+const skill = require('./routes/hero/skill')
 import location from './routes/hero/location'
 
 /**

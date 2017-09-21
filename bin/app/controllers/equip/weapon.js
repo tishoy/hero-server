@@ -1,7 +1,11 @@
-import weapon_data from '../models/weapon'
+import weapon_data from '../../models/weapon'
 
 const new_weapon = () => {
 
+}
+
+const make = () => {
+    
 }
 
 const fix = () => {
