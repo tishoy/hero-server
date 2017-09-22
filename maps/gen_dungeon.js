@@ -454,7 +454,6 @@ var result = []
 while (result.length === 0) {
     result = initMap();
 }
-console.log(result)
 var row;
 for (var i = 0; i < result.length; i++) {
     row = ""
