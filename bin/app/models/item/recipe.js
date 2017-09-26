@@ -1,7 +1,7 @@
 // import xlsxHelper from '../util/xlsx_helper'
 export const armor_data = {
     collection: (db) => {
-        return db.collection("armor")
+        return db.collection("recipe")
     },
 
     exist: (name, db) => {

@@ -3,9 +3,10 @@ import Player from '../controllers/player'
 const router = Router({ prefix: '/player' });
 
 // login
-router.get('/login', Player.login)
-router.get('/register', Player.register)
-router.get('/modify', Player.modify)
+router.post('/login', Player.login)
+router.post('/session_login', Player.login)
+router.post('/register', Player.register)
+router.post('/modify', Player.modify)
 
 
 module.exports = router
