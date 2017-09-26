@@ -1,0 +1,202 @@
+{
+    "30001": {
+        "detail": "",
+        "id": "30001",
+        "name": "30001",
+        "material": "70001",
+        "protect": "50",
+        "magicProtect": "",
+        "skill": "",
+        "ext": ""
+    },
+    "30002": {
+        "detail": "",
+        "id": "30002",
+        "name": "30002",
+        "material": "70002|70003",
+        "protect": "49",
+        "magicProtect": "",
+        "skill": "",
+        "ext": ""
+    },
+    "30003": {
+        "detail": "",
+        "id": "30003",
+        "name": "30003",
+        "material": "",
+        "protect": "48",
+        "magicProtect": "",
+        "skill": "",
+        "ext": ""
+    },
+    "30004": {
+        "detail": "",
+        "id": "30004",
+        "name": "30004",
+        "material": "",
+        "protect": "47",
+        "magicProtect": "",
+        "skill": "",
+        "ext": ""
+    },
+    "30005": {
+        "detail": "",
+        "id": "30005",
+        "name": "30005",
+        "material": "",
+        "protect": "46",
+        "magicProtect": "",
+        "skill": "",
+        "ext": ""
+    },
+    "30006": {
+        "detail": "",
+        "id": "30006",
+        "name": "30006",
+        "material": "",
+        "protect": "45",
+        "magicProtect": "",
+        "skill": "",
+        "ext": ""
+    },
+    "30007": {
+        "detail": "",
+        "id": "30007",
+        "name": "30007",
+        "material": "",
+        "protect": "44",
+        "magicProtect": "",
+        "skill": "",
+        "ext": ""
+    },
+    "30008": {
+        "detail": "",
+        "id": "30008",
+        "name": "30008",
+        "material": "",
+        "protect": "43",
+        "magicProtect": "",
+        "skill": "",
+        "ext": ""
+    },
+    "30009": {
+        "detail": "",
+        "id": "30009",
+        "name": "30009",
+        "material": "",
+        "protect": "42",
+        "magicProtect": "",
+        "skill": "",
+        "ext": ""
+    },
+    "30010": {
+        "detail": "",
+        "id": "30010",
+        "name": "30010",
+        "material": "",
+        "protect": "41",
+        "magicProtect": "",
+        "skill": "",
+        "ext": ""
+    },
+    "30011": {
+        "detail": "",
+        "id": "30011",
+        "name": "30011",
+        "material": "",
+        "protect": "40",
+        "magicProtect": "",
+        "skill": "",
+        "ext": ""
+    },
+    "30012": {
+        "detail": "",
+        "id": "30012",
+        "name": "30012",
+        "material": "",
+        "protect": "39",
+        "magicProtect": "",
+        "skill": "",
+        "ext": ""
+    },
+    "30013": {
+        "detail": "",
+        "id": "30013",
+        "name": "30013",
+        "material": "",
+        "protect": "38",
+        "magicProtect": "",
+        "skill": "",
+        "ext": ""
+    },
+    "30014": {
+        "detail": "",
+        "id": "30014",
+        "name": "30014",
+        "material": "",
+        "protect": "37",
+        "magicProtect": "",
+        "skill": "",
+        "ext": ""
+    },
+    "30015": {
+        "detail": "",
+        "id": "30015",
+        "name": "30015",
+        "material": "",
+        "protect": "36",
+        "magicProtect": "",
+        "skill": "",
+        "ext": ""
+    },
+    "30016": {
+        "detail": "",
+        "id": "30016",
+        "name": "30016",
+        "material": "",
+        "protect": "35",
+        "magicProtect": "",
+        "skill": "",
+        "ext": ""
+    },
+    "30017": {
+        "detail": "",
+        "id": "30017",
+        "name": "30017",
+        "material": "",
+        "protect": "34",
+        "magicProtect": "",
+        "skill": "",
+        "ext": ""
+    },
+    "30018": {
+        "detail": "",
+        "id": "30018",
+        "name": "30018",
+        "material": "",
+        "protect": "33",
+        "magicProtect": "",
+        "skill": "",
+        "ext": ""
+    },
+    "30019": {
+        "detail": "",
+        "id": "30019",
+        "name": "30019",
+        "material": "",
+        "protect": "32",
+        "magicProtect": "",
+        "skill": "",
+        "ext": ""
+    },
+    "30020": {
+        "detail": "",
+        "id": "30020",
+        "name": "30020",
+        "material": "",
+        "protect": "31",
+        "magicProtect": "",
+        "skill": "",
+        "ext": ""
+    }
+}

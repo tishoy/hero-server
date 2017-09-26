@@ -21,11 +21,6 @@ const random = async (ctx, next) => {
     let req = ctx.request.body
     skill.data.find(req.id, ctx.mongo.db('tishoy_hero'))
 }
-// 掌握skill
-
-// random skill
-
-// learn skill
 
 
 export default {

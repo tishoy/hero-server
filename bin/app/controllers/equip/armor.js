@@ -1,9 +1,12 @@
-import armor_data from '../../models/armor'
-// import hero_armor from '../modles/hero'
+import { armor_data, armor_config } from '../../models/equip/armor'
 
 // 生成新的种类盔甲
 const new_armor = () => {
 
+}
+
+const config = async (ctx, next) => {
+    ctx.body = await armor_config;
 }
 
 
@@ -33,6 +36,7 @@ const armors = async () => {
 }
 
 export default {
+    config,
     fix,
     now_in,
     put_on,

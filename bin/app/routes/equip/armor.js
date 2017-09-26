@@ -1,6 +1,6 @@
 import Router from 'koa-router'
 
-import armor from '../../controllers/equip/armor'
+import Armor from '../../controllers/equip/armor'
 
 import Code from '../../code'
 
@@ -9,6 +9,8 @@ const router = Router({ prefix: '/armor' })
 router.get('/test', async (ctx, next) => {
     ctx.body = 'Oh It’s Working!'
 })
+
+router.get('/config', Armor.config)
 
 /**
  * 查询接口

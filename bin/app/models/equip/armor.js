@@ -1,5 +1,5 @@
 // import xlsxHelper from '../util/xlsx_helper'
-const armor = {
+export const armor_data = {
     collection: (db) => {
         return db.collection("armor")
     },
@@ -31,5 +31,4 @@ const armor = {
     }
 }
 // 搞成单例
-
-// export default armor = Util.xlsxHelper()
+export const armor_config = require("../../../config/json/armor.json")
