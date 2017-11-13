@@ -30,5 +30,4 @@ export const armor_data = {
 
     }
 }
-// 搞成单例
 export const armor_config = require("../../../config/json/armor.json")

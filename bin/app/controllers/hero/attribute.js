@@ -1,4 +1,4 @@
-import weapon_data from '../../models/weapon'
+import attribute from '../../models/hero/attribute'
 
 const new_weapon = () => {
 
@@ -8,10 +8,10 @@ const make = () => {
     
 }
 
-const fix = () => {
+const grow = () => {
 
 }
 
 export default {
-    
+    grow
 }

@@ -9,14 +9,14 @@ const cors = require('koa-cors')
 const convert = require('koa-convert')
 const mongo = require('koa-mongo')
 
-const index = require('./routes/index')
+import index from './routes/index'
 // 玩家 player
-const player = require('./routes/player')
+import player from './routes/player'
 /**
  * 个人能力
  */
 import hero from './routes/hero/attribute'
-const skill = require('./routes/hero/skill')
+import skill from './routes/hero/skill'
 import location from './routes/hero/location'
 
 /**
@@ -51,9 +51,9 @@ app.use(logger())
 app.use(require('koa-static')(__dirname + '/public'))
 app.use(mongo())
 
-app.use(views(__dirname + '/views', {
-  extension: 'pug'
-}))
+// app.use(views(__dirname + '/views', {
+//   extension: 'pug'
+// }))
 
 // logger
 app.use(async (ctx, next) => {

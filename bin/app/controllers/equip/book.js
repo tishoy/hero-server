@@ -1,4 +1,4 @@
-import book_data from '../../models/book'
+import book_data from '../../models/equip/book'
 
 const new_book = async () => {
 

@@ -1,3 +1,5 @@
+import Const from '../enum/Const'
+
 import { player_data, player_config } from '../models/player'
 import MH from '../utils/mongo_helper'
 
@@ -7,14 +9,23 @@ var getData = (ctx) => {
 }
 
 const login = async (ctx, next) => {
-    const result = await ctx.mongo.db('test').collection('users').insert({ name: 'tishoy' }, 0, 1);
+    const result = await ctx.mongo.db(Const.db_name).collection('session').insert({ name: 'tishoy' }, 0, 1);
     const userId = result.ops[0]._id.toString();
     console.log(userId)
-    ctx.body = await ctx.mongo.db('test').collection('users').find().toArray();
+    var sessions = await ctx.mongo.db(Const.db_name).collection('session').find().toArray();
+    ctx.body = JSON.toString({ sessions: sessions });
     console.log(ctx.body)
     // ctx.mongo.db('test').collection('users').remove({
     //   _id: mongo.ObjectId(userId)
     // })
+}
+
+const session_login = async (ctx, next) => {
+
+}
+
+const logout = async (ctx, next) => {
+
 }
 
 const register = async (ctx, next) => {
@@ -32,13 +43,15 @@ const register = async (ctx, next) => {
     }
 }
 
-const modify = async (ctx, next) => {
+const detail = async (ctx, next) => {
 
 }
 
 
 export default {
-    register,
     login,
-    modify
+    session_login,
+    logout,
+    register,
+    detail
 }

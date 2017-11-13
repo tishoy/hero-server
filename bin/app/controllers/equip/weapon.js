@@ -1,4 +1,4 @@
-import weapon_data from '../../models/weapon'
+import weapon_data from '../../models/equip/weapon'
 
 const new_weapon = () => {
 
