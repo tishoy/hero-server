@@ -5,7 +5,7 @@ export const armor_data = {
     },
 
     exist: (name, db) => {
-        return armor.collection(db).count({ name: name }) > 0
+        return armor.collection(db).count({ id: id }) > 0
     },
 
     // 查询全部

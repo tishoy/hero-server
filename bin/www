@@ -1,7 +1,11 @@
 #!/usr/bin/env node
 
 // 
-require('babel-register');
+if (process.env.NODE_ENV !== 'production') {
+  require('babel-register');
+}
+
+require('babel-polyfill')
 
 var app = require('./app/index.js');
 var debug = require('debug')('demo:server');

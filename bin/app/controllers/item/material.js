@@ -4,11 +4,19 @@ const new_weapon = () => {
 
 }
 
-const make = () => {
+/**
+ * 收集资料
+ */
+const collect = () => {
     
 }
 
-const fix = () => {
+
+const onsell = () => {
+
+}
+
+const sold = () => {
 
 }
 
